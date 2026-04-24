@@ -1,0 +1,571 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeEscapes - Luxury Bed Linen</title>
+    <meta name="description" content="Experience true luxury with our premium, sustainable bedding and home essentials.">
+    <!-- Google Fonts: Inter and Outfit and Serif for emotion -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="category-page">
+
+    <!-- Top Ad Strip (High Visual) -->
+    <div class="top-ad-strip category-banner">
+        <div class="marquee-content">
+            <div class="marquee-item"><i class="fa-solid fa-hourglass-half banner-icon"></i> SPRING SALE — LIMITED TIME ONLY</div>
+            <div class="marquee-item"><i class="fa-solid fa-hourglass-half banner-icon"></i> SPRING SALE — LIMITED TIME ONLY</div>
+            <div class="marquee-item"><i class="fa-solid fa-hourglass-half banner-icon"></i> SPRING SALE — LIMITED TIME ONLY</div>
+            <div class="marquee-item"><i class="fa-solid fa-hourglass-half banner-icon"></i> SPRING SALE — LIMITED TIME ONLY</div>
+            <div class="marquee-item"><i class="fa-solid fa-hourglass-half banner-icon"></i> SPRING SALE — LIMITED TIME ONLY</div>
+            <div class="marquee-item"><i class="fa-solid fa-hourglass-half banner-icon"></i> SPRING SALE — LIMITED TIME ONLY</div>
+            <div class="marquee-item"><i class="fa-solid fa-hourglass-half banner-icon"></i> SPRING SALE — LIMITED TIME ONLY</div>
+            <div class="marquee-item"><i class="fa-solid fa-hourglass-half banner-icon"></i> SPRING SALE — LIMITED TIME ONLY</div>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="header-main">
+        <div class="header-top">
+            <a href="index.html" class="logo">HOME<span style="font-weight: 400; font-family: var(--font-body);">ESCAPES</span></a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for luxury comfort...">
+                <button aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="header-icons">
+                <a href="#" aria-label="My Account"><i class="fa-regular fa-user"></i></a>
+                <a href="#" aria-label="Wishlist"><i class="fa-regular fa-heart"></i></a>
+                <a href="#" aria-label="Cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-count">2</span>
+                </a>
+            </div>
+        </div>
+        <nav class="header-nav">
+            <a href="#">New In</a>
+            <a href="#" style="border-bottom: 2px solid var(--clr-primary-burnt-orange);">Bedding</a>
+            <a href="#">Towels</a>
+            <a href="#">Rugs</a>
+            <a href="#">Cushions</a>
+            <a href="#">Throws</a>
+            <a href="#">Curtains</a>
+            <a href="#">Furniture</a>
+            <a href="#">Gifts</a>
+        </nav>
+        <div class="header-usps">
+            <span><i class="fa-solid fa-box"></i> Free UK Delivery Info Here</span>
+            <span><i class="fa-solid fa-undo"></i> Free UK Returns</span>
+            <span><i class="fa-solid fa-lock"></i> Secure Checkout</span>
+        </div>
+    </header>
+
+    <!-- Category Hero Section -->
+    <section class="category-hero">
+        <div class="category-hero-bg"></div>
+        <div class="category-hero-overlay"></div>
+        <div class="category-hero-content">
+            <h1 class="category-hero-title">Sleep Like Never Before</h1>
+            <p class="category-hero-subtitle">Discover our exclusive luxury bed linen collection.</p>
+        </div>
+    </section>
+
+    <!-- Breadcrumbs & Filters -->
+    <div class="container catalog-controls">
+        <div class="breadcrumbs">
+            <a href="index.html">Home</a> &gt; <a href="#">Collections</a> &gt; <span>All Items</span>
+        </div>
+        <div class="catalog-filters">
+            <select id="filter-sort"><option value="top-rated">Sort By: Top Rated</option><option value="price-low">Price: Low to High</option><option value="price-high">Price: High to Low</option></select>
+            <select id="filter-color"><option value="All">Color: All</option><option value="White">White</option><option value="Cream">Cream</option></select>
+            <select id="filter-size"><option value="All">Size: All</option><option value="Single">Single</option><option value="Double">Double</option><option value="King">King</option><option value="Super King">Super King</option></select>
+            <select id="filter-material"><option value="All">Material: All</option><option value="Egyptian Cotton">Egyptian Cotton</option><option value="Linen">Linen</option></select>
+        </div>
+    </div>
+
+    <!-- Product Grid -->
+    <section class="product-section" style="padding-top: 1rem; background: var(--clr-bg-main);">
+        <div class="container">
+            <div class="catalog-grid">
+                
+                <!-- Product 1 -->
+                <div class="catalog-card" data-price="55.00" data-color="White" data-material="Egyptian Cotton" data-size="Single" data-reviews="5.0">
+                    <div class="catalog-badge badge-bestseller">BESTSELLER</div>
+                    <div class="catalog-image-box">
+                        <img src="assets/images/promo_bedding.png" alt="V-Shape Orthopedic Pillow" onerror="this.src='assets/images/product1.jpg'">
+                        <button class="catalog-btn-hover" onclick="window.location.href='product.html'">Shop Now</button>
+                    </div>
+                    <div class="catalog-info" style="text-align: left; padding: 1.2rem 0 0.5rem;">
+                        <h3 class="catalog-title" onclick="window.location.href='product.html'" style="cursor:pointer; padding: 0 1.2rem; font-weight: 400; margin-bottom: 0.8rem; font-size: 0.95rem;">V-Shape Orthopedic Nursing Support...</h3>
+                        <div class="catalog-price" style="justify-content: flex-start; padding: 0 1.2rem; margin-bottom: 0.8rem; color: #111; font-weight: 600; font-size: 1.1rem;">
+                            £55.00
+                        </div>
+                        <div class="catalog-colors">
+                            <div class="color-swatch" style="background: #d8c2bb;" title="Blush"></div>
+                            <div class="color-swatch" style="background: #403e43;" title="Charcoal"></div>
+                            <div class="color-swatch" style="background: #f7f5ef;" title="Cream"></div>
+                            <div class="color-swatch" style="background: #c3c4d0;" title="Silver"></div>
+                            <div class="color-swatch" style="background: #8b8f52;" title="Olive"></div>
+                            <div class="color-swatch" style="background: #86a3cc;" title="Sky Blue"></div>
+                        </div>
+                        <div class="catalog-reviews-block">
+                            <div class="trust-stars-mini">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="review-count" style="font-weight: 500; color: #555;">81 reviews <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem; color: #444; margin-left: 2px;"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="catalog-card" data-price="45.00" data-color="Cream" data-material="Linen" data-size="Double" data-reviews="4.8">
+                    <div class="catalog-badge badge-limited">LIMITED</div>
+                    <div class="catalog-image-box">
+                        <img src="assets/images/product1.jpg" alt="Egyptian Cotton Flat Sheet">
+                        <button class="catalog-btn-hover" onclick="window.location.href='product.html'">Shop Now</button>
+                    </div>
+                    <div class="catalog-info" style="text-align: left; padding: 1.2rem 0 0.5rem;">
+                        <h3 class="catalog-title" onclick="window.location.href='product.html'" style="cursor:pointer; padding: 0 1.2rem; font-weight: 400; margin-bottom: 0.8rem; font-size: 0.95rem;">200 Thread Count 100% Egyptian Cotton Flat Sheet</h3>
+                        <div class="catalog-price" style="justify-content: flex-start; padding: 0 1.2rem; margin-bottom: 0.8rem; color: #111; font-weight: 600; font-size: 1.1rem;">
+                            £45.00
+                        </div>
+                        <div class="catalog-colors">
+                            <div class="color-swatch" style="background: #d8c2bb;" title="Blush"></div>
+                            <div class="color-swatch" style="background: #403e43;" title="Charcoal"></div>
+                            <div class="color-swatch" style="background: #f7f5ef;" title="Cream"></div>
+                            <div class="color-swatch" style="background: #c3c4d0;" title="Silver"></div>
+                            <div class="color-swatch" style="background: #8b8f52;" title="Olive"></div>
+                            <div class="color-swatch" style="background: #86a3cc;" title="Sky Blue"></div>
+                        </div>
+                        <div class="catalog-reviews-block">
+                            <div class="trust-stars-mini">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="review-count" style="font-weight: 500; color: #555;">81 reviews <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem; color: #444; margin-left: 2px;"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="catalog-card" data-price="75.00" data-color="White" data-material="Egyptian Cotton" data-size="King" data-reviews="4.5">
+                    <div class="catalog-image-box">
+                        <img src="assets/images/product3.jpg" alt="Egyptian Cotton Duvet Cover" onerror="this.src='assets/images/hero_slide_2.png'">
+                        <button class="catalog-btn-hover" onclick="window.location.href='product.html'">Shop Now</button>
+                    </div>
+                    <div class="catalog-info" style="text-align: left; padding: 1.2rem 0 0.5rem;">
+                        <h3 class="catalog-title" onclick="window.location.href='product.html'" style="cursor:pointer; padding: 0 1.2rem; font-weight: 400; margin-bottom: 0.8rem; font-size: 0.95rem;">200 Thread Count 100% Egyptian Cotton Duvet Cover</h3>
+                        <div class="catalog-price" style="justify-content: flex-start; padding: 0 1.2rem; margin-bottom: 0.8rem; color: #111; font-weight: 600; font-size: 1.1rem;">
+                            £75.00
+                        </div>
+                        <div class="catalog-colors">
+                            <div class="color-swatch" style="background: #d8c2bb;" title="Blush"></div>
+                            <div class="color-swatch" style="background: #403e43;" title="Charcoal"></div>
+                            <div class="color-swatch" style="background: #f7f5ef;" title="Cream"></div>
+                            <div class="color-swatch" style="background: #c3c4d0;" title="Silver"></div>
+                            <div class="color-swatch" style="background: #8b8f52;" title="Olive"></div>
+                            <div class="color-swatch" style="background: #86a3cc;" title="Sky Blue"></div>
+                        </div>
+                        <div class="catalog-reviews-block">
+                            <div class="trust-stars-mini">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="review-count" style="font-weight: 500; color: #555;">81 reviews <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem; color: #444; margin-left: 2px;"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="catalog-card" data-price="35.00" data-color="Cream" data-material="Egyptian Cotton" data-size="Super King" data-reviews="4.9">
+                    <div class="catalog-badge badge-bestseller">BESTSELLER</div>
+                    <div class="catalog-image-box">
+                        <img src="assets/images/product4.jpg" alt="Down Alternative Standard Pillow">
+                        <button class="catalog-btn-hover" onclick="window.location.href='product.html'">Shop Now</button>
+                    </div>
+                    <div class="catalog-info" style="text-align: left; padding: 1.2rem 0 0.5rem;">
+                        <h3 class="catalog-title" onclick="window.location.href='product.html'" style="cursor:pointer; padding: 0 1.2rem; font-weight: 400; margin-bottom: 0.8rem; font-size: 0.95rem;">Down Alternative Standard Pillow...</h3>
+                        <div class="catalog-price" style="justify-content: flex-start; padding: 0 1.2rem; margin-bottom: 0.8rem; color: #111; font-weight: 600; font-size: 1.1rem;">
+                            £35.00
+                        </div>
+                        <div class="catalog-colors">
+                            <div class="color-swatch" style="background: #d8c2bb;" title="Blush"></div>
+                            <div class="color-swatch" style="background: #403e43;" title="Charcoal"></div>
+                            <div class="color-swatch" style="background: #f7f5ef;" title="Cream"></div>
+                            <div class="color-swatch" style="background: #c3c4d0;" title="Silver"></div>
+                            <div class="color-swatch" style="background: #8b8f52;" title="Olive"></div>
+                            <div class="color-swatch" style="background: #86a3cc;" title="Sky Blue"></div>
+                        </div>
+                        <div class="catalog-reviews-block">
+                            <div class="trust-stars-mini">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="review-count" style="font-weight: 500; color: #555;">81 reviews <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem; color: #444; margin-left: 2px;"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="catalog-card" data-price="40.00" data-color="White" data-material="Egyptian Cotton" data-size="Single" data-reviews="4.2">
+                    <div class="catalog-image-box">
+                        <img src="assets/images/must2.jpg" alt="Cotton Velvet Pillowcase">
+                        <button class="catalog-btn-hover" onclick="window.location.href='product.html'">Shop Now</button>
+                    </div>
+                    <div class="catalog-info" style="text-align: left; padding: 1.2rem 0 0.5rem;">
+                        <h3 class="catalog-title" onclick="window.location.href='product.html'" style="cursor:pointer; padding: 0 1.2rem; font-weight: 400; margin-bottom: 0.8rem; font-size: 0.95rem;">100% Cotton Velvet Standard Pillowcase</h3>
+                        <div class="catalog-price" style="justify-content: flex-start; padding: 0 1.2rem; margin-bottom: 0.8rem; color: #111; font-weight: 600; font-size: 1.1rem;">
+                            £40.00
+                        </div>
+                        <div class="catalog-colors">
+                            <div class="color-swatch" style="background: #d8c2bb;" title="Blush"></div>
+                            <div class="color-swatch" style="background: #403e43;" title="Charcoal"></div>
+                            <div class="color-swatch" style="background: #f7f5ef;" title="Cream"></div>
+                            <div class="color-swatch" style="background: #c3c4d0;" title="Silver"></div>
+                            <div class="color-swatch" style="background: #8b8f52;" title="Olive"></div>
+                            <div class="color-swatch" style="background: #86a3cc;" title="Sky Blue"></div>
+                        </div>
+                        <div class="catalog-reviews-block">
+                            <div class="trust-stars-mini">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="review-count" style="font-weight: 500; color: #555;">81 reviews <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem; color: #444; margin-left: 2px;"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="catalog-card" data-price="85.00" data-color="Cream" data-material="Linen" data-size="Double" data-reviews="4.7">
+                    <div class="catalog-badge badge-limited">LIMITED</div>
+                    <div class="catalog-image-box">
+                        <img src="assets/images/must3.jpg" alt="330 Thread Count Egyptian Cotton">
+                        <button class="catalog-btn-hover" onclick="window.location.href='product.html'">Shop Now</button>
+                    </div>
+                    <div class="catalog-info" style="text-align: left; padding: 1.2rem 0 0.5rem;">
+                        <h3 class="catalog-title" onclick="window.location.href='product.html'" style="cursor:pointer; padding: 0 1.2rem; font-weight: 400; margin-bottom: 0.8rem; font-size: 0.95rem;">330 Thread Count 100% Egyptian Cotton...</h3>
+                        <div class="catalog-price" style="justify-content: flex-start; padding: 0 1.2rem; margin-bottom: 0.8rem; color: #111; font-weight: 600; font-size: 1.1rem;">
+                            £85.00
+                        </div>
+                        <div class="catalog-colors">
+                            <div class="color-swatch" style="background: #d8c2bb;" title="Blush"></div>
+                            <div class="color-swatch" style="background: #403e43;" title="Charcoal"></div>
+                            <div class="color-swatch" style="background: #f7f5ef;" title="Cream"></div>
+                            <div class="color-swatch" style="background: #c3c4d0;" title="Silver"></div>
+                            <div class="color-swatch" style="background: #8b8f52;" title="Olive"></div>
+                            <div class="color-swatch" style="background: #86a3cc;" title="Sky Blue"></div>
+                        </div>
+                        <div class="catalog-reviews-block">
+                            <div class="trust-stars-mini">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="review-count" style="font-weight: 500; color: #555;">81 reviews <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem; color: #444; margin-left: 2px;"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="catalog-card" data-price="65.00" data-color="White" data-material="Egyptian Cotton" data-size="King" data-reviews="4.6">
+                    <div class="catalog-badge badge-bestseller">BESTSELLER</div>
+                    <div class="catalog-image-box">
+                        <img src="assets/images/must4.jpg" alt="Luxury Mulberry Silk Pillowcase">
+                        <button class="catalog-btn-hover" onclick="window.location.href='product.html'">Shop Now</button>
+                    </div>
+                    <div class="catalog-info" style="text-align: left; padding: 1.2rem 0 0.5rem;">
+                        <h3 class="catalog-title" onclick="window.location.href='product.html'" style="cursor:pointer; padding: 0 1.2rem; font-weight: 400; margin-bottom: 0.8rem; font-size: 0.95rem;">Luxury 100% Mulberry Silk Pillowcase</h3>
+                        <div class="catalog-price" style="justify-content: flex-start; padding: 0 1.2rem; margin-bottom: 0.8rem; color: #111; font-weight: 600; font-size: 1.1rem;">
+                            £65.00
+                        </div>
+                        <div class="catalog-colors">
+                            <div class="color-swatch" style="background: #d8c2bb;" title="Blush"></div>
+                            <div class="color-swatch" style="background: #403e43;" title="Charcoal"></div>
+                            <div class="color-swatch" style="background: #f7f5ef;" title="Cream"></div>
+                            <div class="color-swatch" style="background: #c3c4d0;" title="Silver"></div>
+                            <div class="color-swatch" style="background: #8b8f52;" title="Olive"></div>
+                            <div class="color-swatch" style="background: #86a3cc;" title="Sky Blue"></div>
+                        </div>
+                        <div class="catalog-reviews-block">
+                            <div class="trust-stars-mini">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="review-count" style="font-weight: 500; color: #555;">81 reviews <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem; color: #444; margin-left: 2px;"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="catalog-card" data-price="50.00" data-color="Cream" data-material="Linen" data-size="Super King" data-reviews="4.3">
+                    <div class="catalog-image-box">
+                        <img src="assets/images/must_bedroom.png" alt="Organic Cotton Fitted Sheet">
+                        <button class="catalog-btn-hover" onclick="window.location.href='product.html'">Shop Now</button>
+                    </div>
+                    <div class="catalog-info" style="text-align: left; padding: 1.2rem 0 0.5rem;">
+                        <h3 class="catalog-title" onclick="window.location.href='product.html'" style="cursor:pointer; padding: 0 1.2rem; font-weight: 400; margin-bottom: 0.8rem; font-size: 0.95rem;">Organic Cotton Deep Fitted Sheet</h3>
+                        <div class="catalog-price" style="justify-content: flex-start; padding: 0 1.2rem; margin-bottom: 0.8rem; color: #111; font-weight: 600; font-size: 1.1rem;">
+                            £50.00
+                        </div>
+                        <div class="catalog-colors">
+                            <div class="color-swatch" style="background: #d8c2bb;" title="Blush"></div>
+                            <div class="color-swatch" style="background: #403e43;" title="Charcoal"></div>
+                            <div class="color-swatch" style="background: #f7f5ef;" title="Cream"></div>
+                            <div class="color-swatch" style="background: #c3c4d0;" title="Silver"></div>
+                            <div class="color-swatch" style="background: #8b8f52;" title="Olive"></div>
+                            <div class="color-swatch" style="background: #86a3cc;" title="Sky Blue"></div>
+                        </div>
+                        <div class="catalog-reviews-block">
+                            <div class="trust-stars-mini">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="review-count" style="font-weight: 500; color: #555;">81 reviews <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem; color: #444; margin-left: 2px;"></i></span>
+                        </div>
+                    </div>
+                </div>
+                
+                 <!-- Product 9 -->
+                <div class="catalog-card" data-price="110.00" data-color="White" data-material="Linen" data-size="Single" data-reviews="4.1">
+                    <div class="catalog-badge badge-limited">LIMITED</div>
+                    <div class="catalog-image-box">
+                        <img src="assets/images/hero_slide_2.png" alt="Pure Linen Duvet Set" onerror="this.src='assets/images/product1.jpg'">
+                        <button class="catalog-btn-hover" onclick="window.location.href='product.html'">Shop Now</button>
+                    </div>
+                    <div class="catalog-info" style="text-align: left; padding: 1.2rem 0 0.5rem;">
+                        <h3 class="catalog-title" onclick="window.location.href='product.html'" style="cursor:pointer; padding: 0 1.2rem; font-weight: 400; margin-bottom: 0.8rem; font-size: 0.95rem;">Pure French Linen Double Duvet Set</h3>
+                        <div class="catalog-price" style="justify-content: flex-start; padding: 0 1.2rem; margin-bottom: 0.8rem; color: #111; font-weight: 600; font-size: 1.1rem;">
+                            £110.00
+                        </div>
+                        <div class="catalog-colors">
+                            <div class="color-swatch" style="background: #d8c2bb;" title="Blush"></div>
+                            <div class="color-swatch" style="background: #403e43;" title="Charcoal"></div>
+                            <div class="color-swatch" style="background: #f7f5ef;" title="Cream"></div>
+                            <div class="color-swatch" style="background: #c3c4d0;" title="Silver"></div>
+                            <div class="color-swatch" style="background: #8b8f52;" title="Olive"></div>
+                            <div class="color-swatch" style="background: #86a3cc;" title="Sky Blue"></div>
+                        </div>
+                        <div class="catalog-reviews-block">
+                            <div class="trust-stars-mini">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="review-count" style="font-weight: 500; color: #555;">81 reviews <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem; color: #444; margin-left: 2px;"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 10 -->
+                <div class="catalog-card" data-price="28.00" data-color="Cream" data-material="Linen" data-size="Double" data-reviews="5.0">
+                    <div class="catalog-image-box">
+                        <img src="assets/images/product_tablecloth.png" alt="Fleece Throw" onerror="this.src='assets/images/must2.jpg'">
+                        <button class="catalog-btn-hover" onclick="window.location.href='product.html'">Shop Now</button>
+                    </div>
+                    <div class="catalog-info" style="text-align: left; padding: 1.2rem 0 0.5rem;">
+                        <h3 class="catalog-title" onclick="window.location.href='product.html'" style="cursor:pointer; padding: 0 1.2rem; font-weight: 400; margin-bottom: 0.8rem; font-size: 0.95rem;">Super Soft Microfiber Fleece Throw</h3>
+                        <div class="catalog-price" style="justify-content: flex-start; padding: 0 1.2rem; margin-bottom: 0.8rem; color: #111; font-weight: 600; font-size: 1.1rem;">
+                            £28.00
+                        </div>
+                        <div class="catalog-colors">
+                            <div class="color-swatch" style="background: #d8c2bb;" title="Blush"></div>
+                            <div class="color-swatch" style="background: #403e43;" title="Charcoal"></div>
+                            <div class="color-swatch" style="background: #f7f5ef;" title="Cream"></div>
+                            <div class="color-swatch" style="background: #c3c4d0;" title="Silver"></div>
+                            <div class="color-swatch" style="background: #8b8f52;" title="Olive"></div>
+                            <div class="color-swatch" style="background: #86a3cc;" title="Sky Blue"></div>
+                        </div>
+                        <div class="catalog-reviews-block">
+                            <div class="trust-stars-mini">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="review-count" style="font-weight: 500; color: #555;">81 reviews <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem; color: #444; margin-left: 2px;"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 11 -->
+                <div class="catalog-card" data-price="48.00" data-color="White" data-material="Linen" data-size="King" data-reviews="4.4">
+                    <div class="catalog-badge badge-bestseller">BESTSELLER</div>
+                    <div class="catalog-image-box">
+                        <img src="assets/images/promo_duvets.png" alt="Cotton Waffle Blanket" onerror="this.src='assets/images/product4.jpg'">
+                        <button class="catalog-btn-hover" onclick="window.location.href='product.html'">Shop Now</button>
+                    </div>
+                    <div class="catalog-info" style="text-align: left; padding: 1.2rem 0 0.5rem;">
+                        <h3 class="catalog-title" onclick="window.location.href='product.html'" style="cursor:pointer; padding: 0 1.2rem; font-weight: 400; margin-bottom: 0.8rem; font-size: 0.95rem;">Textured Cotton Waffle Weave Blanket</h3>
+                        <div class="catalog-price" style="justify-content: flex-start; padding: 0 1.2rem; margin-bottom: 0.8rem; color: #111; font-weight: 600; font-size: 1.1rem;">
+                            £48.00
+                        </div>
+                        <div class="catalog-colors">
+                            <div class="color-swatch" style="background: #d8c2bb;" title="Blush"></div>
+                            <div class="color-swatch" style="background: #403e43;" title="Charcoal"></div>
+                            <div class="color-swatch" style="background: #f7f5ef;" title="Cream"></div>
+                            <div class="color-swatch" style="background: #c3c4d0;" title="Silver"></div>
+                            <div class="color-swatch" style="background: #8b8f52;" title="Olive"></div>
+                            <div class="color-swatch" style="background: #86a3cc;" title="Sky Blue"></div>
+                        </div>
+                        <div class="catalog-reviews-block">
+                            <div class="trust-stars-mini">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="review-count" style="font-weight: 500; color: #555;">81 reviews <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem; color: #444; margin-left: 2px;"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 12 -->
+                <div class="catalog-card" data-price="150.00" data-color="Cream" data-material="Egyptian Cotton" data-size="Super King" data-reviews="4.9">
+                    <div class="catalog-image-box">
+                        <img src="assets/images/promo_pillows.png" alt="Goose Down Duvet" onerror="this.src='assets/images/must4.jpg'">
+                        <button class="catalog-btn-hover" onclick="window.location.href='product.html'">Shop Now</button>
+                    </div>
+                    <div class="catalog-info" style="text-align: left; padding: 1.2rem 0 0.5rem;">
+                        <h3 class="catalog-title" onclick="window.location.href='product.html'" style="cursor:pointer; padding: 0 1.2rem; font-weight: 400; margin-bottom: 0.8rem; font-size: 0.95rem;">Hungarian Goose Down 10.5 Tog Duvet</h3>
+                        <div class="catalog-price" style="justify-content: flex-start; padding: 0 1.2rem; margin-bottom: 0.8rem; color: #111; font-weight: 600; font-size: 1.1rem;">
+                            £150.00
+                        </div>
+                        <div class="catalog-colors">
+                            <div class="color-swatch" style="background: #d8c2bb;" title="Blush"></div>
+                            <div class="color-swatch" style="background: #403e43;" title="Charcoal"></div>
+                            <div class="color-swatch" style="background: #f7f5ef;" title="Cream"></div>
+                            <div class="color-swatch" style="background: #c3c4d0;" title="Silver"></div>
+                            <div class="color-swatch" style="background: #8b8f52;" title="Olive"></div>
+                            <div class="color-swatch" style="background: #86a3cc;" title="Sky Blue"></div>
+                        </div>
+                        <div class="catalog-reviews-block">
+                            <div class="trust-stars-mini">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="review-count" style="font-weight: 500; color: #555;">81 reviews <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem; color: #444; margin-left: 2px;"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div style="text-align: center; margin-top: 3rem;">
+                <button id="see-more-btn" class="btn" style="padding: 1rem 3rem; font-size: 1.1rem; border-radius: 4px; border: 2px solid var(--clr-primary-deep-teal); background: transparent; color: var(--clr-primary-deep-teal); font-weight: 700; cursor: pointer; transition: all 0.3s ease;" onmouseover="this.style.background='var(--clr-primary-deep-teal)'; this.style.color='#fff';" onmouseout="this.style.background='transparent'; this.style.color='var(--clr-primary-deep-teal)';">See More Products</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section (High Visual) -->
+    <section class="category-reviews">
+        <div class="container text-center">
+            <div class="review-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-quote">"The softest sheets I have ever slept in. Completely transformed my bedroom into a 5-star hotel experience."</p>
+            <p class="review-author">— Sarah T., Verified Buyer</p>
+        </div>
+    </section>
+
+    <!-- As Seen In (Match Snapshot 2 Layout) -->
+    <section class="as-seen-in" style="background: #fff; padding: 4rem 2rem; text-align: center; border-top: 1px solid #eee; border-bottom: 1px solid #eee;">
+        <p style="font-family: var(--font-body); font-weight: 600; letter-spacing: 1px; color: #555; margin-bottom: 2rem; font-size: 1.2rem;">As Seen In.</p>
+        <div class="as-seen-carousel" style="display: flex; align-items: center; justify-content: center; gap: 4rem; overflow: hidden; width: 100%; max-width: 1200px; margin: 0 auto;">
+            
+            <button id="as-seen-prev" aria-label="Previous" style="background: #fff; border: 1px solid #ddd; border-radius: 50%; width: 40px; height: 40px; cursor: pointer; flex-shrink: 0; box-shadow: 0 2px 5px rgba(0,0,0,0.05);"><i class="fa-solid fa-chevron-left"></i></button>
+
+            <div id="as-seen-track" style="display: flex; align-items: center; gap: 4rem; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);">
+                <!-- THE TIMES -->
+                <div style="font-family: 'Times New Roman', Times, serif; font-size: 1.8rem; font-weight: 700; color: #111; letter-spacing: -1px; display: flex; align-items: center;">
+                    THE <i class="fa-brands fa-empire" style="font-size: 2.5rem; margin: 0 8px; color: #333;"></i> TIMES
+                </div>
+                
+                <!-- House Beautiful -->
+                <div style="font-family: 'Playfair Display', serif; font-size: 2rem; color: #333; letter-spacing: -0.5px;">
+                    House Beautiful
+                </div>
+                
+                <!-- The Guardian -->
+                <div style="font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: #111; letter-spacing: -1px; text-transform: lowercase;">
+                    <span style="display:inline-block; line-height: 0.8; margin-top:-10px;">The<br>Guardian</span>
+                </div>
+                
+                <!-- Ideal Home -->
+                <div style="font-family: 'Playfair Display', serif; font-size: 2.2rem; color: #444; letter-spacing: -2px;">
+                    Ideal Home
+                </div>
+
+                <!-- INDEPENDENT -->
+                <div style="font-family: Arial, sans-serif; font-size: 1.5rem; font-weight: 800; color: #111; letter-spacing: 1px; display: flex; align-items: center; gap: 8px;">
+                    <i class="fa-solid fa-dove" style="font-size: 2rem; color: #555;"></i> INDEPENDENT
+                </div>
+
+                <!-- Good Housekeeping -->
+                <div style="font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 900; color: #222; text-transform: none; letter-spacing: -1px;">
+                    Good Housekeeping
+                </div>
+            </div>
+            
+            <button id="as-seen-next" aria-label="Next" style="background: #fff; border: 1px solid #ddd; border-radius: 50%; width: 40px; height: 40px; cursor: pointer; flex-shrink: 0; box-shadow: 0 2px 5px rgba(0,0,0,0.05);"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Newsletter (Category Page Specific) -->
+    <!-- Newsletter SECTION (bottom "Don't Miss Out") -->
+    <!-- Bold gradient background (deep green to teal), Large emotional headline, Bright CTA button with subtle pulse animation -->
+    <section class="newsletter-section category-newsletter">
+        <div class="newsletter-content">
+            <h2 class="category-newsletter-title">A Lifetiime of Comfort Awaits</h2>
+            <p>Join our family and never miss a dreamy moment.</p>
+            <form class="newsletter-form" onsubmit="event.preventDefault()">
+                <input type="email" placeholder="Enter your email address..." required style="color: #333;">
+                <button type="submit" class="pulse-btn">Join Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3 class="logo" style="margin-bottom: 1rem; font-size: 1.5rem;">HOME<span style="font-weight: 400; font-family: var(--font-body);">ESCAPES</span></h3>
+                <p style="color: var(--clr-text-light); font-size: 0.9rem; margin-bottom: 2rem;">As passionate and meticulous about true value, high quality and sustainability as the day we started.</p>
+                <div style="display: flex; gap: 1rem; flex-direction: column;">
+                    <div style="display: flex; align-items: flex-start; gap: 10px;">
+                        <i class="fa-solid fa-location-dot" style="margin-top: 4px; color: var(--clr-primary-deep-teal);"></i>
+                        <span style="font-size: 0.85rem; color: var(--clr-text-light);">Central Business Park, Unit 2, Sandbach, Cheshire, CW11 3PZ, United Kingdom</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Useful Info</h4>
+                <ul>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">Read our Reviews</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>HomeEscapes</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Ethics</a></li>
+                    <li><a href="#">Press Enquiries</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us / Buying Guides</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Pillow Buying Guide</a></li>
+                    <li><a href="#">Duvet Cover Buying Guide</a></li>
+                    <li><a href="#">Towels Buying Guide</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 HomeEscapes. All Rights Reserved.</p>
+            <div class="payment-icons">
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-amex"></i>
+                <i class="fa-brands fa-cc-paypal"></i>
+                <i class="fa-brands fa-cc-apple-pay"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
